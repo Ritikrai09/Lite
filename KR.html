@@ -2,23 +2,24 @@
 	 background-size:1300px; "> 
     <head>
            <meta set="utf-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2210 1080" xml:space="preserve">
 <style type="text/css">
     html{
-    	width: 100%;
+    	min-width: 80%;
     	height: 100%;
     	position: relative;
     }
     svg{
-    	width: 100%;
+    	width:  100%;
     	height: 100%;
     	transform: scale(1.1, 1.1);
     }
-	.st0{fill:url();}
+
+  .st0{fill:url();}
 	.st1{opacity:0.6; animation: fadein2 1.9s ease-in-out 1 forwards;}
 	.st2{fill:#94C7FF;fill-opacity:0;}
 	.st3{fill:url(#SVGID_2_);}
@@ -43,10 +44,10 @@
 	.st19{fill:#F2F2F2;}
 	.st20{fill:url(#SVGID_7_);}
 	.st21{fill:#E6E6E6;}
-	.st22{fill:#808080;     transform: rotate(0deg) translate(0vh,0vh); animation: lime 2s ease-in-out infinite forwards;}
+	.st22{fill:#808080;     transform: rotate(0deg) translate(0vh,0vh); animation: lime 2s cubic-bezier(0.67, 0.51, 0.62, 0.91) infinite forwards;}
 	.st23{opacity:0.5;}
 	.st24{fill:url(#SVGID_8_); 
-	animation: lime 2s ease-in-out infinite forwards;}
+	animation: lime 2s cubic-bezier(0.67, 0.51, 0.62, 0.91) infinite forwards;}
 	.st25{fill:url(#SVGID_9_);}
 	.st26{fill:url(#SVGID_10_); 
         transform: rotate(0deg) translate(0vh,0vh);
@@ -86,16 +87,15 @@
 	.st59{fill:url(#SVGID_23_); animation: lime 2s ease-in-out infinite forwards, lime1 4s ease-in-out infinite forwards;}
 	.st60{fill:#E70385;}
    body{
-    	position: relative;
-    
+    	position: relative;  
     } 
-    img{
-    	position: absolute;
-    	top: 40vh;
-    	left: 35vh;
-       transform: scale(1);
-      opacity: 0;
-       animation: fadein1 1s 2.3s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;
+
+    .img{
+
+       transform: scale(1)  matrix(1 0 0 1 600 400);
+     animation: fadein1 2s 2s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;
+     opacity: 0;
+
     }
 
 	@keyframes lime{
@@ -163,11 +163,11 @@
     
     0%{
 	opacity: 0;
-	transform: translateY(5vh);
+	transform: translateY(5vh) matrix(1 0 0 1 280 500);
 	}
 
 	100%{
-    transform: translateY(0vh);
+    transform: translateY(0vh) matrix(1 0 0 1 280 500);
     opacity: 1;
 	}
 
@@ -427,7 +427,7 @@
 			
 				<image style="overflow:visible;opacity:0.7;" width="303" height="133" xlink:href="23E8574C.png"  transform="matrix(1 0 0 1 560 738)">
 			</image>
-
+             
 			<g>
 				
 					<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="583" y1="275.13" x2="826" y2="275.13" gradientTransform="matrix(1 0 0 -1 0 1080)">
@@ -633,10 +633,11 @@
 			l0,0C1603.9,490.8,1607.3,487.5,1611.4,487.5z"/>
 		<path class="st60" d="M808.3,507L808.3,507c2.8,0,5,2.2,5,5l0,0c0,2.8-2.2,5-5,5l0,0c-2.8,0-5-2.2-5-5l0,0
 			C803.3,509.2,805.5,507,808.3,507z"/>
+				<image class='img' width="803" height="233" href="subtle.svg"  transform="matrix(1 0 0 1 280 500)">
 	</g>
 </g>
 </svg>
 <body>
-<img src='subtle.svg' width=500 height=200>
+
 </body>
 </html>
