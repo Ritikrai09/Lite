@@ -1,6 +1,6 @@
 <svg style='fill:white; font-size: 50px; transform: scale(1);' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 785.15 27.18"><defs><style>.cls-1{font-size:25px;font-family:MyriadPro-Regular, Myriad Pro;}
-	.cls-10,.cls-11,.cls-12,.cls-13,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{opacity:0.5;letter-spacing:-0.02em;}
-	.cls-3{letter-spacing:0.2em;}
+	.cls-10,.cls-11,.cls-12,.cls-13,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{opacity:0.5;}
+    .cls-2{letter-spacing:0.2em;}
 	.cls-3{letter-spacing:0em;}
 	.cls-4{letter-spacing:0em;}
 	.cls-5{letter-spacing:0.01em;}
@@ -34,14 +34,11 @@
 			<tspan class="cls-2" x="175.47" y="0">ious lea</tspan>
 			<tspan class="cls-9" x="254.5" y="0">r</tspan>
 			<tspan class="cls-2" x="262.77" y="0">ning utilities &amp; a spa</tspan>
-			<tspan class="cls-7" x="372.09" y="0">c</tspan>
-			<tspan class="cls-2" x="483.14" y="0">e sh</tspan>
+			<tspan class="cls-7" x="471.09" y="0">c</tspan>
+			<tspan class="cls-2" x="482.14" y="0">e sh</tspan>
 			<tspan class="cls-10" x="523.74" y="0">o</tspan>
 			<tspan class="cls-11" x="537.29" y="0">w</tspan>
-			<tspan class="cls-2" x="555.44" y="0">case </tspan>
-			<tspan class="cls-11" x="616.42" y="0">y</tspan>
-			<tspan class="cls-12" x="628.94" y="0">our tale</tspan>
-			<tspan class="cls-3" x="697.66" y="0"> n</tspan><tspan class="cls-13" x="711.44" y="0">t</tspan>
-			<tspan class="cls-2" x="719.64" y="0">. . . . . </tspan>
-			<tspan class="cls-14" x="772.01" y="0" xml:space="preserve">  </tspan>
-			<tspan class="cls-15" x="781.34" y="0"> </tspan></text></g></g></svg>
+			<tspan class="cls-2" x="555.44" y="0">case  </tspan>
+			<tspan class="cls-11" x="606.42" y="0">y</tspan>
+			<tspan class="cls-12" x="617.94" y="0">our tale</tspan>
+			<tspan class="cls-3" x="697.66" y="0"> n</tspan><tspan class="cls-13" x="711.44" y="0">t</tspan><tspan class="cls-2" x="719.64" y="0">. . . . . </tspan><tspan class="cls-14" x="772.01" y="0" xml:space="preserve">  </tspan><tspan class="cls-15" x="781.34" y="0"> </tspan></text></g></g></svg>
