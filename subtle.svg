@@ -2,13 +2,13 @@
 	.cls-10,.cls-11,.cls-12,.cls-13,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{opacity:0.5;}
 	.cls-3{letter-spacing:0em;}
 	.cls-4{letter-spacing:0em;}
-	.cls-5{letter-spacing:0.01em;}
+	.cls-5{letter-spacing:-0.01em;}
 	.cls-6{letter-spacing:0em;}
-	.cls-7{letter-spacing:0.01em;}
-	.cls-8{letter-spacing:0.01em;}
+	.cls-7{letter-spacing:-0.01em;}
+	.cls-8{letter-spacing:-0.01em;}
 	.cls-9{letter-spacing:0.01em;}
-	.cls-10{letter-spacing:0.01em;}
-	.cls-11{letter-spacing:0.01em;}
+	.cls-10{letter-spacing:-0.01em;}
+	.cls-11{letter-spacing:-0.01em;}
 	.cls-12{letter-spacing:0em;}
 	.cls-13{letter-spacing:0em;}
 	.cls-14{font-size:25px;letter-spacing:0em;}
@@ -37,7 +37,7 @@
 			<tspan class="cls-2" x="482.14" y="0">e sh</tspan>
 			<tspan class="cls-10" x="523.74" y="0">o</tspan>
 			<tspan class="cls-11" x="537.29" y="0">w</tspan>
-			<tspan class="cls-2" x="555.44" y="0">case  </tspan>
+			<tspan class="cls-2" x="555.44" y="0">case </tspan>
 			<tspan class="cls-11" x="606.42" y="0">y</tspan>
 			<tspan class="cls-12" x="617.94" y="0">our tale</tspan>
 			<tspan class="cls-3" x="697.66" y="0"> n</tspan><tspan class="cls-13" x="711.44" y="0">t</tspan><tspan class="cls-2" x="719.64" y="0">. . . . . </tspan><tspan class="cls-14" x="772.01" y="0" xml:space="preserve">  </tspan><tspan class="cls-15" x="781.34" y="0"> </tspan></text></g></g></svg>
