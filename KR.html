@@ -1,4 +1,4 @@
-<html  style=" "> 
+<html> 
     <head>
            <meta set="utf-8">  
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
@@ -11,42 +11,59 @@
     	min-width: 800px;
     	height: 120%;
     	position: relative;
-         overflow:auto;
-	background: url(blacky.jpg) no-repeat center, white;
+      
+             background: linear-gradient(to top, black, #000000b8,black),url(blackish.jfif) no-repeat center;
 	 background-size:cover;
-	}
+      
+    }
+    body{
+       height: 100%;
+       box-shadow: 0px 0px 10px 0px black;
+       border-radius: 10px;
+      
+       animation: shine 2s 1;
+          background-position: -100vw; 
+   }
     svg{
         width: 100%;
     	height: 100%;
     	position: absolute;
     	top: -5vh;
-    	transform:  translateY(-17vh) scale(1.1, 1.1);
+    	transform: scale(1.1, 1.1);
     }
+    .bulb{
+
+ transform: translateY(-1vh);
+  }
+
+.main{
+ transform: translateY(-12vh) scale(0.98, 0.98);
+  }
+
 @media only screen and (max-width: 800px){
 
 svg {
     width: 100%;
     height: 130%;
-     transform: translateY(-25vh) scale(1.1, 1.1);
+     transform: translateY(-30vh);
 
 }
 
 html{
  transform: translateY(-17vh);
-  background: url(blacky.jpg) no-repeat top center, white;
-	 background-size:800px;
-	}
+  }
 
 .main{
- transform:  translateY(-10vh) scale(1.5, 1.5);
+ transform: translateY(-22vh) scale(1.3, 1.2);
   }
 
 .bulb{
 
- transform: scale(0.8,0.8) translate(-90vh,165vh);
+ transform: translate(-120vh,120vh);
   }
 
 }
+
   
 
   .st0{fill:url();}
@@ -60,17 +77,17 @@ html{
 	.st8{opacity:0.5;}
 	.st9{fill:none;}
 	.st10{fill:#55FF63;  opacity: 0; animation: fadein 1s 1s ease-in-out 1 forwards;}
-	.st11{fill:#666666;  opacity: 0; animation: fadein1 1s 2.2s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;}
-	.st12{fill:#DCDCDC;}
+	.st11{fill:#cccccc;  opacity: 0; animation: fadein1 1s 2.2s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards; }
+	.st12{fill:#444; text-shadow: 0px 2px 5px black; font-weight: bold;}
 	.st13{fill:#D8D8D8;}
-	.st14{fill:#003DB4; animation: fadein 1.3s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;}
+	.st14{fill:#ccc; animation: fadein 1.3s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;}
 	.st15{fill:#C5237F;}
 	.st16{fill:#E9FF74;
 	animation: pop 0.9s cubic-bezier(0.52, 0.04, 0.54, 0.88) 1 forwards;}
-	.st17{fill:#FF4A5E;
+	.st17{fill:url(#linear);
 	animation: pop 0.9s ease-in-out 1 forwards;}
-	.st18{transition: fill 0.4s linear;}
-	.st18:hover{fill: #FF4B5E; opacity:0.9;}
+	.st18{transition: fill 0.4s linear; animation: fadein 2s ease-in-out 1 forwards;}
+	.st18:hover{fill: #FF4B5E; opacity:0.9; }
 	.st19{fill:#F2F2F2;}
 	.st20{fill:url(#SVGID_7_);}
 	.st21{fill:#E6E6E6;}
@@ -116,17 +133,80 @@ html{
 	.st58{clip-path:url(#SVGID_22_);}
 	.st59{fill:url(#SVGID_23_); animation: lime 2s ease-in-out infinite forwards, lime1 4s ease-in-out infinite forwards;}
 	.st60{fill:#E70385;}
+
    body{
     	position: relative;  
     } 
 
+   ul{
+list-style-type: none;
+display: inline-flex;
+position: absolute;
+left: 32vh;
+top: 13vh;
+z-index: -1;
+	}
+
+	
+
+ .cir{
+     width: 80px;
+     height:80px;
+  border-radius: 50%;
+     background-color: black;
+     opacity: 0.3;
+     position: absolute;
+     top: 20vh;
+     left: 0vh;
+     z-index: 100;
+     margin-top: 30px;
+     margin-left: 20px;
+     opacity: 0;
+     animation: spread 1s 3s cubic-bezier(0,0,0.34,0.5) forwards 1;
+	}
+
+@keyframes spread{
+	50%{
+   width: 450px;
+   border-radius: 10px;
+  opacity: 1;
+}
+	60%{
+   width: 50px;
+   border-radius: 10px;
+  transform: translateX(50px);
+
+	}
+100%{
+opacity: 0;
+
+	}
+
+
+	}
     .img{
 
-       transform: scale(1.2,1)  matrix(1 0 0 1 600 400);
-     animation: fadein1 2s 2s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;
-     opacity: 0;
-
+       transform: scale(1.2)  matrix(1 0 0 1 600 400);
+       animation: fadein1 2s 2s cubic-bezier(0.67, 0.51, 0.62, 0.91) 1 forwards;
+       opacity: 0;
+     
     }
+
+	@keyframes shine{
+	0%{
+		 background-image: linear-gradient(to right,
+		 	transparent 2%,
+		 	rgba(255, 255,255, 0.3) 50%,
+		 	transparent 100%);
+   background-position: -100vw; 
+	}
+
+	100%{
+   background-image: none; 
+    background-position: 100vw; 
+   opacity: 0.5;
+	}
+	}
 
 	@keyframes lime{
 	50%{
@@ -180,11 +260,13 @@ html{
     0%{
 	opacity: 0;
 	transform: translateY(-5vh);
+	filter: blur(1px);
 	}
 
 	100%{
     transform: translateY(0vh);
     opacity: 1;
+    filter: blur(0px);
 	}
 
 	}
@@ -203,6 +285,7 @@ html{
 
 	}
 
+ 
 
 	 @keyframes fadein2{
     
@@ -230,7 +313,22 @@ html{
  
  
 </style>
+<defs>
+		   <linearGradient id="linear" x1="127.7" y1="174.2" x2="165.1" y2="174.2" gradientUnits="userSpaceOnUse" 
+		   gradientTransform="matrix(1 0 0 1 0 165)">
+		   	<stop offset="0" stop-color="#cce0f4"/>
+		   	<stop offset="0" stop-color="#c3daf0"/>
+		   	<stop offset="0" stop-color="#a9c9e4"/>
+		   	<stop offset="0" stop-color="#80aed1"/>
+		   	<stop offset="0" stop-color="#4689b7"/>
+		   	<stop offset="0" stop-color="#005b97"/>
+		   	<stop offset="0" stop-color="#7e7730"/>
+		   	<stop offset="0" stop-color="#fdfce8" stop-opacity="0.81"/><stop offset="0.19" stop-color="#fff" stop-opacity="0.8"/><stop offset="0.42" stop-color="#ff4a5e"/>
+		   	<stop offset="0.94" stop-color="#ff4a5e"/></linearGradient>
+       </defs>
+
 <title>Lite</title>
+<g class='main'>
 <g>
 	<g>
 		
@@ -403,13 +501,6 @@ html{
 		<path class="st17" d="M406.1,300.2c0,10.3-7.2,18.8-19.2,18.8c-10.9,0-18.2-8.5-18.2-18.8c-0.2-10.1,7.8-18.5,17.9-18.8
 			c0,0,0,0,0,0h0.9C398.7,281.5,406,289.7,406.1,300.2z M372.4,513V347.1h30V513H372.4z"/>
 		
-			<image style="overflow:visible;enable-background:new    ;" width="303" height="133" xlink:href="23E8574F.png"  transform="matrix(1 0 0 1 553 744)">
-		</image>
-		<g>
-			
-				<image style="overflow:visible;opacity:0.7;" width="303" height="133" xlink:href="23E8574C.png"  transform="matrix(1 0 0 1 560 738)">
-			</image>
-             
 			<g>
 				
 					<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="583" y1="275.13" x2="826" y2="275.13" gradientTransform="matrix(1 0 0 -1 0 1080)">
@@ -439,7 +530,10 @@ html{
 		<path class="st19" d="M749.9,796.8H742v-2.4h19.1v2.4h-7.9v19.9h-3.3L749.9,796.8z"/>
 		
 
+		<path class="st60" d="M808.3,507L808.3,507c2.8,0,5,2.2,5,5l0,0c0,2.8-2.2,5-5,5l0,0c-2.8,0-5-2.2-5-5l0,0
+			C803.3,509.2,805.5,507,808.3,507z"/>
 
+</g>
 
 
 <g class="bulb">
@@ -670,13 +764,17 @@ html{
 
 		</g>
 
-		<path class="st60" d="M808.3,507L808.3,507c2.8,0,5,2.2,5,5l0,0c0,2.8-2.2,5-5,5l0,0c-2.8,0-5-2.2-5-5l0,0
-			C803.3,509.2,805.5,507,808.3,507z"/>
 				<image class='img' width="803" height="233" href="subtle.svg"  transform="matrix(1 0 0 1 280 500)">
 	</g>
 </g>
 </svg>
 <body>
 
+<ul>
+   <li class="circle --i"></li>
+     <li class="cir --i"></li>
+       <li class="cir --i"></li>
+</ul>
+	
 </body>
 </html>
